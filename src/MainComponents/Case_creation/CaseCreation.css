@@ -1,0 +1,169 @@
+#hospital-table {
+    
+    border-collapse: collapse;
+    
+  }
+  .table-container{
+    margin-top: 100px;
+    
+
+  }
+  .date-cha{
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+  }
+  
+  #hospital-table th,
+  #hospital-table td {
+    padding: 8px 12px;
+    text-align: center;
+  }
+  
+  #hospital-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  .table-change{
+    margin-left: 230px;
+    width: 80%;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #mainBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #dateFilters {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #dateFilters label {
+    font-size: 14px;
+  }
+  
+  #pageHeading h1 {
+    margin: 0;
+  }
+  
+  #buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  #buttons button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #buttons button:hover {
+    opacity: 0.8;
+  }
+  
+  /* .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+  } */
+  
+  /* .pagination-controls .rows-per-page {
+    font-size: 14px;
+  }
+  
+  .pagination-controls button {
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button:disabled {
+    opacity: 0.5;
+  }
+  
+  .pagination-info {
+    font-size: 14px;
+  } */
+  
+  .icon {
+    cursor: pointer;
+    margin: 0 5px;
+    color: #007bff;
+  }
+  
+  .icon:hover {
+    color: #0056b3;
+  }
+  
+  .vertical-divider {
+    border-left: 1px solid #ccc;
+    height: 20px;
+    margin: 0 10px;
+  }
+  
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  #mainBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #dateFilters {
+    margin-bottom: 10px;
+  }
+  
+  #dateFilters input {
+    width: 160px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  #hospital-table td,
+  #hospital-table th {
+    word-wrap: break-word;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  @media screen and (max-width: 768px) {
+    /* .pagination-controls {
+      flex-direction: column;
+      align-items: flex-start;
+    } */
+  
+    .pagination-controls button {
+      margin: 5px 0;
+    }
+  
+    .rows-per-page select {
+      margin-bottom: 10px;
+    }
+    .button-stright{
+      display: inline-block;
+    }
+  }
+  
+
+
+  

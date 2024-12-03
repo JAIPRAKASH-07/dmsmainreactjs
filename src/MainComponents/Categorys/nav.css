@@ -1,0 +1,136 @@
+/* Existing styles */
+/* .navbar {
+    background-color: #007bff; 
+} */
+
+.nav-link.active {
+    font-size: 2rem; 
+    color: #ffffff; 
+}
+
+.search-input {
+    margin-right: 100px; 
+}
+
+.bi-list {
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    left: 10px; 
+
+}
+
+.icon {
+    margin-left: 15px; 
+}
+
+.center {
+    text-align: center;
+    margin: 5px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px; 
+    margin-top: 80px;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.905); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1050; 
+}
+
+.modal-dialog {
+    background: #f8f9fa; 
+    border-radius: 8px;
+    max-width: 500px; 
+    width: 100%; 
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.modal-header {
+    border-bottom: none; 
+}
+
+.modal-footer {
+    border-top: none; 
+}
+
+
+
+.btn {
+    margin-right: 10px; 
+}
+
+
+.accordion {
+    width: 60%;
+    margin: 0 auto;
+    background-color: ghostwhite; 
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accordion-item {
+    border: 1px solid #ffffff; 
+    border-radius: 6px;
+    margin-bottom: 8px;
+  }
+  
+  .accordion-header {
+    background-color: whitesmoke; 
+    padding: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+   
+  }
+  
+  .accordion-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 8px;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    background-color: #ffeef2; 
+    color: blue;
+    border: 1px solid #ffe6eb;
+  }
+  
+  .accordion-body {
+    background-color: #fff0f5; 
+    padding: 8px;
+   color: blue
+  }
+  
+  .button-group .btn-warning {
+    background-color: #fff7d6;
+    color: #0e79de;
+  }
+  
+  .button-group .btn-danger {
+    background-color: #ffe5e9; 
+    color: #520202;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    color: #338599;
+  }
+  

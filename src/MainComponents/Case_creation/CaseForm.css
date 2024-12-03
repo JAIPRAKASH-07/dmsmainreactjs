@@ -1,0 +1,56 @@
+.caseForm-Container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #0000001a;
+    height: 100%;
+    max-width: 80%;
+    padding: 20px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    margin-top: 100px;
+    margin-right: 80px;
+  }
+  
+  .form-control {
+    border-width: 0.01px;
+    border-color: #000;
+  }
+  
+  .form-select {
+    border-width: 0.01px;
+    border-color: #000;
+  }
+  
+  .addCaseHeaderClass {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .addnewcaseHeader {
+    margin-left: 37%;
+  }
+  
+  #addProductBtnId {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    padding: 6px 12px;
+    margin: 0px 0px 20px 0px;
+    font-size: medium;
+    padding: 6px 12px;
+  }
+  
+  #CaseFormSubmitBtnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #CaseFormSubmitBtn {
+    font-size: large;
+    width: 150px;
+    margin-top: 16px;
+    padding: 15px;
+  }
+  
+  
